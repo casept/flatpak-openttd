@@ -50,6 +50,7 @@
       "buildsystem": "simple",
       "build-commands": [
 	"tar -xvf opengfx-0.5.2.tar",
+	"rm opengfx-0.5.2.tar",
 	"cd opengfx-0.5.2",
 	"mkdir -p /app/share/games/openttd/baseset/opengfx",
 	"cp -r * /app/share/games/openttd/baseset/opengfx/"
