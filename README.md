@@ -2,7 +2,7 @@
 
 A flatpak package for the game openttd. Includes the opengfx, opensfx and openmsx resource packs, as well as timidity (needed to play music).     
 
-## Building     
+## Building a release build     
 First checkout the repo:     
 ```
 git clone https://github.com/casept/flatpak-openttd     
@@ -25,6 +25,16 @@ make
  
 ## Installation      
 Just run `make install`. This will install the game for your local user.     
+
+## Building/installing a trunk build
+Follow the steps above, but use
+
+```    
+make -f Makefile-nightly     
+make -f Makefile-nightly install
+```     
+
+instead of the standard `make` commands.
 
 ## Running        
 In most desktop environments an openttd menu entry will have been created under games. If that's not the case you may need to log out and back in again. If you still can't find the icon your DE might not be looking in the directory where flatpak places .desktop files. If that's the case you'll have to run `flatpak run org.openttd.openttd` to start the game.
