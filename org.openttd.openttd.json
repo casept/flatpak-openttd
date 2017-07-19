@@ -40,8 +40,8 @@
           "sources" : [
               {
                   "type": "archive",
-                  "url": "https://binaries.openttd.org/releases/1.7.1-RC1/openttd-1.7.1-RC1-source.tar.xz",
-		  "sha256": "f811207e6ce8fff933c2db5c405347d37683dd76ff3d9717cecb82c5d092feb4"
+                  "url": "https://binaries.openttd.org/releases/1.7.1/openttd-1.7.1-source.tar.xz",
+		  "sha256": "61190952a98d494d3fd62e395dd6c359609914d0ba8fe80eaeb585b7d62a1b36"
               }
           ]
       },
